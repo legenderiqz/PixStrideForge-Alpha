@@ -109,16 +109,19 @@ canvas {
 }
 
 #color-cont {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position: absolute;  /* fixed -> absolute */
+  top: 5px;           /* canvas'ın içinde istediğin mesafe */
+  left: 5%;
+  right: 5%;
+  width: auto;/* genişliği içeriğe göre ayarla */
   background: #333;
-  padding: 10px;
-  z-index: 100;
+  padding: 5px;
+  z-index: 200;        /* canvas ve hud'dan yüksek olsun */
   display: flex;
   align-items: center;
   gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #color-palette {
