@@ -37,7 +37,7 @@ canvas {
 
 #hud {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   right: 20px;
   width: 260px;
   height: 160px;
@@ -137,7 +137,7 @@ canvas {
 }
 
 #puan {
-  bottom: 200px;
+  bottom: 220px;
   right: 20px;
   border: 3px solid black;
   border-radius: 2px;
@@ -159,4 +159,4 @@ canvas {
   left: 0;
   z-index: 1;
   background-color: #F3FDFF;
-  }
+    }
